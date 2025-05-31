@@ -113,3 +113,78 @@
 .brand-logo {
   width: 135px;
 }
+/* brand end */
+
+/* service start */
+.service {
+  padding-top: 120px;
+  padding-bottom: 72px;
+  background-image: url("../img/hero/Hero.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.service-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.service-header {
+  background-color: #f2f2f7;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.service-title {
+  font-family: SF Pro, sans-serif;
+  font-weight: 590;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.75%;
+  color: #0f172a;
+}
+.service-list {
+  padding-top: 40px;
+}
+.service-list .service-item:last-child {
+  border-bottom: none;
+}
+.service-item {
+  display: flex;
+  align-items: start;
+  gap: 16px;
+  padding: 32px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+.service-img {
+  width: 52px;
+  height: 52px;
+}
+
+.service-item-title {
+  font-family: SF Pro, sans-serif;
+  font-weight: 590;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.6%;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+.service-item-list {
+  padding-left: 24px;
+  list-style: disc;
+}
+.service-item-item {
+  font-family: SF Pro, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #334155;
+}
+
+/* service end */
